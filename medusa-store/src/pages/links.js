@@ -23,7 +23,7 @@ export const links = [
     text: "Contact",
     url: "/contact",
   },
-];
+]
 
 export const socialLinks = [
   {
@@ -39,19 +39,19 @@ export const socialLinks = [
   {
     title: "LinkedIn",
     icon: "mdi:linkedin",
-    url: "https://www.linkedin.com/in/bryare/",
+    url: "https://www.linkedin.com/in/bryarev/",
   },
   {
     title: "Reddit",
     icon: "mdi:reddit",
-    url: "https://www.reddit.com/user/bryare",
+    url: "https://www.reddit.com/user/bryarev",
   },
   {
     title: "Instagram",
     icon: "mdi:instagram",
     url: "https://www.instagram.com/bryarev/",
   },
-];
+]
 
 export const socials = [
   {
@@ -109,7 +109,7 @@ export const socials = [
     icon: "simple-icons:linktree",
     url: "https://linktr.ee/bryarev",
   },
-];
+]
 
 export const supports = [
   {
@@ -127,7 +127,7 @@ export const supports = [
     icon: "simple-icons:patreon",
     url: "https://www.patreon.com/bryarev",
   },
-];
+]
 
 export const blogging = [
   {
@@ -155,7 +155,7 @@ export const blogging = [
     icon: "simple-icons:substack",
     url: "https://bryarev.substack.com/",
   },
-];
+]
 
 export const coding = [
   {
@@ -188,7 +188,7 @@ export const coding = [
     icon: "simple-icons:replit",
     url: "https://replit.com/@bryarev",
   },
-];
+]
 
 export const video = [
   {
@@ -211,4 +211,4 @@ export const video = [
     icon: "simple-icons:odysee",
     url: "https://odysee.com/@bryarev",
   },
-];
+]

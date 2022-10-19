@@ -4,7 +4,7 @@ import Link from "next/link"
 import { ReactElement } from "react"
 import { NextPageWithLayout } from "types/global"
 import Image from "next/image"
-import { portfolio } from "./portfolio.js"
+import { portfolio } from "./portfolioinfo.js"
 const Resume: NextPageWithLayout = () => {
   return (
     <>
@@ -25,7 +25,12 @@ const Resume: NextPageWithLayout = () => {
         >
           <div className="grid grid-cols-1 md:grid-cols-3 justify-evenly max-w-screen-lg w-full mx-auto gap-6 fade-in-text ">
             {portfolio.map((content) => (
-              <a href={content.href} target="_blank" rel="noreferrer noopener">
+              <a
+                href={content.href}
+                target="_blank"
+                rel="noreferrer noopener"
+                key={`${content.name}`}
+              >
                 <Image
                   src={`${content.image}`}
                   alt="portfolio image"

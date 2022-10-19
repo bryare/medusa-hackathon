@@ -51,24 +51,7 @@ const CountrySelect = () => {
             : undefined
         }
       >
-        <Listbox.Button className="py-1 w-full">
-          <div className="text-small-regular flex items-center gap-x-2 xsmall:justify-end">
-            <span>Shipping to:</span>
-            {current && (
-              <span className="text-small-semi flex items-center gap-x-2">
-                <ReactCountryFlag
-                  svg
-                  style={{
-                    width: "16px",
-                    height: "16px",
-                  }}
-                  countryCode={current.country}
-                />
-                {current.label}
-              </span>
-            )}
-          </div>
-        </Listbox.Button>
+        <Listbox.Button className="py-1 w-full"></Listbox.Button>
         <div className="relative w-full min-w-[316px]">
           <Transition
             show={state}

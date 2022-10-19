@@ -21,15 +21,16 @@ const AboutMe: NextPageWithLayout = () => {
         </div>
       </section>
 
-      <section class="flex justify-center items-center">
-        <div class="grid grid-cols-1 md:grid-cols-2 max-w-screen-lg w-full mx-auto">
-          <div class="fade-in-text text-left ">
-            I'm Bry, a freelance solopreneur/artist based in the United States,
-            my main passion is creating art, whether it be on the internet or on
-            canvas. I like to design things such as UI's and UX's and tinker
-            with websites. I view website development as an art, especially
-            because there are so many tiny details and perfections you have to
-            get right and execute in order for the consumer to appreciate it.
+      <section className="flex justify-center items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 max-w-screen-lg w-full mx-auto">
+          <div className="fade-in-text text-left ">
+            I&apos;m Bry, a freelance solopreneur/artist based in the United
+            States, my main passion is creating art, whether it be on the
+            internet or on canvas. I like to design things such as UI&apos;s and
+            UX&apos;s and tinker with websites. I view website development as an
+            art, especially because there are so many tiny details and
+            perfections you have to get right and execute in order for the
+            consumer to appreciate it.
             <br />
             <br />
             The first website I built was in 2018 and since then you have

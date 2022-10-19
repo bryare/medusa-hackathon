@@ -17,14 +17,14 @@ const Contact: NextPageWithLayout = () => {
           </h1>
 
           <div className="feedback-form ">
-            <form icon="feedback" method="POST" action="/success">
+            <form name="feedback" method="POST" action="/success">
               <p className="hidden">
                 <label>
                   Don’t fill this out if you’re human:{" "}
-                  <input icon="bot-field" />
+                  <input name="bot-field" />
                 </label>
               </p>
-              <input type="hidden" icon="form-icon" value="feedback" />
+              <input type="hidden" name="form-icon" value="feedback" />
 
               <div className="px-20 md:px-40 my-10 md:mx-96">
                 <label htmlFor="icon">Name</label>
@@ -33,7 +33,7 @@ const Contact: NextPageWithLayout = () => {
                   placeholder="John Doe"
                   id="icon"
                   type="text"
-                  icon="icon"
+                  name="icon"
                   required
                 />
               </div>
@@ -45,7 +45,7 @@ const Contact: NextPageWithLayout = () => {
                   placeholder="Johndoe@gmail.com"
                   id="email"
                   type="email"
-                  icon="email"
+                  name="email"
                   required
                 />
               </div>
@@ -69,7 +69,7 @@ const Contact: NextPageWithLayout = () => {
                   placeholder="Leave a comment..."
                   id="feedback"
                   wrap="soft"
-                  icon="feedback"
+                  name="feedback"
                   required
                   rows={5}
                 ></textarea>
@@ -92,7 +92,7 @@ const Contact: NextPageWithLayout = () => {
             <h2 className="font-archivo text-4xl">Socials</h2>
             <div className="flex justify-center items-start flex-wrap">
               {socials.map((social) => (
-                <div className="px-10">
+                <div className="px-10" key={`${social.title}`}>
                   <a
                     href={`${social.url}`}
                     target="_blank"
@@ -119,7 +119,7 @@ const Contact: NextPageWithLayout = () => {
             <h2 className="font-archivo text-4xl">Support</h2>
             <div className="flex justify-center items-start flex-wrap">
               {supports.map((social) => (
-                <div className="px-10">
+                <div className="px-10" key={`${social.title}`}>
                   <a
                     href={`${social.url}`}
                     target="_blank"
@@ -144,7 +144,7 @@ const Contact: NextPageWithLayout = () => {
             <h2 className="font-archivo text-4xl">Blogging</h2>
             <div className="flex justify-center items-start flex-wrap">
               {blogging.map((social) => (
-                <div className="px-10">
+                <div className="px-10" key={`${social.title}`}>
                   <a
                     href={`${social.url}`}
                     target="_blank"
@@ -169,7 +169,7 @@ const Contact: NextPageWithLayout = () => {
             <h2 className="font-archivo text-4xl">Coding</h2>
             <div className="flex justify-center items-start flex-wrap">
               {coding.map((social) => (
-                <div className="px-10">
+                <div className="px-10" key={`${social.title}`}>
                   <a
                     href={`${social.url}`}
                     target="_blank"
@@ -194,7 +194,7 @@ const Contact: NextPageWithLayout = () => {
             <h2 className="font-archivo text-4xl">Video</h2>
             <div className="flex justify-center items-start flex-wrap">
               {video.map((social) => (
-                <div className="px-10">
+                <div className="px-10" key={`${social.title}`}>
                   <a
                     href={`${social.url}`}
                     target="_blank"
