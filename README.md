@@ -6,6 +6,11 @@
 # Description
 A rendition of my personal site using medusaJS as a store.
 
+# Prerequisites
+
+- Medusa CLI
+- Node 16.8
+
 # Set up project
 
 1. First git clone this file
@@ -57,3 +62,7 @@ A rendition of my personal site using medusaJS as a store.
    ```
    npm run dev
    ```
+   
+   ## Resources
+
+   - [Medusa’s GitHub repository](https://github.com/medusajs/medusa)
