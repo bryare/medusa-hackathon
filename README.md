@@ -8,7 +8,12 @@ A rendition of my personal site using medusaJS as a store.
 
 # Set up project
 
-1. Medusa Server on localhost:9000
+1. First git clone this file
+
+   ```
+   git clone https://github.com/bryare/medusa-hackathon.git
+   ```
+2. Medusa Server on localhost:9000
    <br/>
    
    ```
@@ -34,7 +39,7 @@ A rendition of my personal site using medusaJS as a store.
    medusa develop
    ```
 
-2. Medusa Store on localhost:8000
+3. Medusa Store on localhost:8000
    <br/>
    
    ```
