@@ -6,6 +6,10 @@
 # Description
 A rendition of my personal site using medusaJS as a store.
 
+# Preview
+
+![Medusa Hackathon 2022](/preview.jpg)
+
 # Prerequisites
 
 - Medusa CLI
