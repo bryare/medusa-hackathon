@@ -73,6 +73,18 @@ const MainMenu = () => {
                   </button>
                 </a>
               </Link>
+              <Link href="/portfolio">
+                <a>
+                  <button
+                    className="flex items-center justify-between w-full"
+                    onClick={close}
+                  >
+                    <span className="sr-only">Check out my Portfolio</span>
+                    <span>Portfolio</span>
+                    <ChevronDown className="-rotate-90" />
+                  </button>
+                </a>
+              </Link>
               <Link href="/about">
                 <a>
                   <button

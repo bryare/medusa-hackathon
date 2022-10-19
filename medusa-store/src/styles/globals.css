@@ -132,3 +132,15 @@
   -webkit-text-stroke-width: 0.2vh;
   -webkit-text-stroke-color: fuchsia;
 }
+
+#spin-text {
+  height: 100px;
+  width: 100px;
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(-360deg);
+  }
+}

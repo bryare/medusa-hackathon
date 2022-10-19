@@ -42,11 +42,24 @@ const DropdownMenu = () => {
               </a>
             </Link>
 
-            <Link href="/about" passHref>
+            <Link href="/portfolio" passHref>
               <a className="relative flex h-full">
                 <Popover.Button
                   className={clsx(
                     "px-10 relative h-full flex items-center transition-all ease-out duration-200"
+                  )}
+                  onClick={() => push("/portfolio")}
+                >
+                  Portfolio
+                </Popover.Button>
+              </a>
+            </Link>
+
+            <Link href="/about" passHref>
+              <a className="relative flex h-full">
+                <Popover.Button
+                  className={clsx(
+                    "relative h-full flex items-center transition-all ease-out duration-200"
                   )}
                   onClick={() => push("/about")}
                 >
@@ -59,7 +72,7 @@ const DropdownMenu = () => {
               <a className="relative flex h-full">
                 <Popover.Button
                   className={clsx(
-                    " relative h-full flex items-center transition-all ease-out duration-200"
+                    "px-10 relative h-full flex items-center transition-all ease-out duration-200"
                   )}
                   onClick={() => push("/resume")}
                 >
@@ -72,7 +85,7 @@ const DropdownMenu = () => {
               <a className="relative flex h-full">
                 <Popover.Button
                   className={clsx(
-                    "px-10 relative h-full flex items-center transition-all ease-out duration-200"
+                    " relative h-full flex items-center transition-all ease-out duration-200"
                   )}
                   onClick={() => push("/contact")}
                 >
